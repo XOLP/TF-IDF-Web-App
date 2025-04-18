@@ -16,7 +16,7 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/yourusername/tfidf-webapp.git
+   git clone https://github.com/XOLP/TF-IDF-Web-App.git
    cd tfidf-webapp
    ```
 
@@ -55,8 +55,8 @@ python app.py
 
 - `app.py` — основной файл приложения Flask
 - `templates/` — HTML-шаблоны (`index.html`, `results.html`)
-- `static/` — CSS, JavaScript и изображения
-- `README.md` — этот файл
+- `static/` — CSS
+
 
 ## Зависимости
 
