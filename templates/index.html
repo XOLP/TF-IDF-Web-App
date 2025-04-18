@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>TF-IDF Analyzer</title>
@@ -12,10 +12,10 @@
             <div class="error-message">{{ error }}</div>
         {% endif %}
         <form method="post" enctype="multipart/form-data">
-            <label for="file">Загрузите файл(.txt .doc):</label><br><br>
+            <label for="file">Upload a file (.txt, .doc, .docx):</label><br><br>
             <input type="file" name="file" id="file" accept=".txt,.doc,.docx" required>
             <br><br>
-            <button type="submit">Анализировать</button>
+            <button type="submit">Analyze</button>
         </form>
     </div>
 </body>
