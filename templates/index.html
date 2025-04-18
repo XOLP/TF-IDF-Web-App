@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TF-IDF Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>TF-IDF Analyzer</h1>
+        {% if error %}
+            <div class="error-message">{{ error }}</div>
+        {% endif %}
+        <form method="post" enctype="multipart/form-data">
+            <label for="file">Загрузите файл(.txt .doc):</label><br><br>
+            <input type="file" name="file" id="file" accept=".txt,.doc,.docx" required>
+            <br><br>
+            <button type="submit">Анализировать</button>
+        </form>
+    </div>
+</body>
+</html>
